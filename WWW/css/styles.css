@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #020225;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ebff;
+}
+header {
+    background-color: #071944;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #338bc6;
+}
+nav {
+    background-color: #2e3d7b;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(181, 200, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+section {
+    background: rgb(210, 225, 255);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1, h2, h3 {
+    color: #338bc6;
+}
+.values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+footer {
+    background-color: #071944;
+    color: #338bc6;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.value-card {
+    flex-basis: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgb(226, 235, 255);
+    border-left: 4px solid #469dd7;
+}
+
