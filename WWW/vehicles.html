@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="/css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vehiculos - Automax</title>
+    <title>Vehículos - Automax</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
@@ -21,33 +21,69 @@
     </nav>
 
     <main>
-        <section class="vehiculos">
+        <section class="vehiculo1-tipo-carrusel">
+
             <h1>Vehículos Disponibles</h1>
-            <div class="vehiculo">
-                <img src="" alt="Auto 1">
-                <h2>Lexus lc Convertible 2025</h2>
-                <p><strong>Precio por día:</strong> $</p>
-                <p>Un sedán confiable, económico en combustible y con diseño moderno.</p>
+            <div class="vehiculo1 activo">
+                <img src="/images/toyotacorolla2022.jpg" alt="Toyota Corolla 2022">
+                <h2>Toyota Corolla</h2>
+                <p><strong>Precio por día:</strong> $680 MXN</p>
+                <p><strong>Tipo de transmisión:</strong> Automática</p>
+                <p><strong>Kilometraje Libre</strong></p>
+                <p>Sedán compacto: Combina espacio y eficiencia.</p>          
+                <p>Diseño elegante con luces LED y frente agresivo.</p>
             </div>
-            <div class="vehiculo">
-                <img src="" alt="Auto 2">
-                <h2>Mazda  2025</h2>
-                <p><strong>Precio por día:</strong> $</p>
-                <p>Deportivo potente con excelente desempeño y estilo clásico.</p>
+
+            <div class="vehiculo1">
+                <img src="/images/fordescape2021.jpeg" alt="Ford Escape 2021">
+                <h2>Ford Escape</h2>
+                <p><strong>Precio por día:</strong> $980 MXN</p>
+                <p><strong>Tipo de transmisión:</strong> Automática</p>
+                <p><strong>Kilometraje Libre</strong></p>
+                <p>SUV compacta: Espaciosa y cómoda para viajes.</p>          
+                <p>Diseño aerodinámico con faros LED y techo panorámico opcional.</p>
             </div>
-            <div class="vehiculo">
-                <img src="" alt="Auto 3">
-                <h2>Chevrolet Tahoe 2023</h2>
-                <p><strong>Precio por día:</strong> $</p>
-                <p>SUV espaciosa ideal para familias y viajes largos.</p>
+
+            <div class="vehiculo1">
+                <img src="/images/chevroletspark2020.jpeg" alt="Chevrolet Spark 2020">
+                <h2>Chevrolet Spark</h2>
+                <p><strong>Precio por día:</strong> $640 MXN</p>
+                <p><strong>Tipo de transmisión:</strong> Manual</p>
+                <p><strong>Kilometraje Libre</strong></p>
+                <p>Hatchback compacto: Ideal para ciudad y fácil de estacionar.</p>          
+                <p>Diseño juvenil con colores llamativos y detalles modernos.</p>
+            </div>
+
+
+            <div class="flechas">
+                <button onclick="cambiarVehiculo(-1)">&#10094;</button>
+                <button onclick="cambiarVehiculo(1)">&#10095;</button>
+            </div>
             </div>
         </section>
-    </main>
 
+    </main>
 
     <footer>
         <p>&copy; 2023 Automax. Todos los derechos reservados.</p>
         <p>Teléfono: +1 234 567 890 | Email: info@automax.com</p>
     </footer>
+
+<script>
+    let indice = 0;
+    const vehiculos = document.querySelectorAll('.vehiculo1');
+
+    function mostrarVehiculo(i) {
+        vehiculos.forEach((v, idx) => {
+            v.classList.toggle('activo', idx === i);
+        });
+    }
+
+    function cambiarVehiculo(direccion) {
+        indice = (indice + direccion + vehiculos.length) % vehiculos.length;
+        mostrarVehiculo(indice);
+    }
+</script>
+
 </body>
 </html>
