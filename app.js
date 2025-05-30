@@ -35,6 +35,9 @@ http.createServer((request, response) => {
                 case 'gif':
                     response.writeHead(200, {"Content-Type":"image/gif"});
                 break;
+                case 'ico':
+                    response.writeHead(200, {"Content-Type":"image/x-icon"});
+                break;
                 default: 
                     response.writeHead(200, {"Content-Type":"text/plain"});
             }
