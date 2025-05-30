@@ -1,3 +1,60 @@
-<p>Contact funciona</p>
-<!-- testeando algo -->
-<img src="./images/baby.gif" alt="Bebé bailando"> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Automax</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">AUTOMAX</div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about_us.html">Acerca de</a></li>
+            <li><a href="vehicles.html">Vehículos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container contacto-flex">
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2397.74172389936!2d-106.13840386299553!3d28.703878683858303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea4210ab42f3c9%3A0x39cb97094094ea6f!2sUACH-%20Facultad%20de%20Ingenier%C3%ADa!5e0!3m2!1ses!2smx!4v1748562916357!5m2!1ses!2smx" 
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contáctanos</h2>
+            <p>Ponte en contacto con nosotros. Estamos ubicados en:</p>
+            <p><strong>Dirección:</strong> Circuito Número I s/n, Nuevo Campus Universitario, Nte. 2, 31125 Chihuahua</p>
+            <p><strong>Teléfono:</strong> +1 234 567 890 </p>
+            <p><strong>Email:</strong> info@automax.com</p>
+
+            <form id="formulario-contacto" onsubmit="return enviarFormulario()">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Automax. Todos los derechos reservados.</p>
+        <p>Teléfono: +1 234 567 890 | Email: info@automax.com</p>
+    </footer>
+
+    <script>
+        function enviarFormulario() {
+            alert('Tu mensaje ha sido enviado. Gracias por contactarnos.');
+            document.getElementById('formulario-contacto').reset();
+            return false; 
+        }
+    </script>
+</body>
+</html>
