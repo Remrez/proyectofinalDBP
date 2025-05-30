@@ -53,13 +53,13 @@ node app.js
 ```
 http://localhost:8888
 ```
-Instrucciones para ejecutar con Docker:
+Instrucciones para ejecutar con Docker:.
 Puedes ejecutar este sitio directamente con Docker, sin necesidad de instalar Node.js.
 
 * 1. Asegúrate de tener Docker instalado
 
 ```
-Descarga e instala Docker desde [https://www.docker.com](https://www.docker.com).
+Descarga e instala Docker desde [Docker](https://www.docker.com)
 ```
 
 * 2. Ejecutar la imagen desde Docker Hub
@@ -76,7 +76,7 @@ http://localhost:8888
 ### Link DockerHub
 
 ```
-https://hub.docker.com/r/dave1220/proyectofinaldbp/tags
+[Link de Imagen de Docker](https://hub.docker.com/r/dave1220/proyectofinaldbp/tags)
 ```
 
 ## Built With
