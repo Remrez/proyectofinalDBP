@@ -59,10 +59,6 @@ http://localhost:8888
 * [CSS] - Estilos personalizados para la apariencia del sitio.
 * [Node.js] - Servidor básico para servir los archivos de forma local.
 
-## Versioning
-
-Revisar
-
 ## Authors
 
 * **Hernández Hernández Luisa Fernanda** - *368068* - [LuFer25](https://github.com/LuFer25)
@@ -70,11 +66,3 @@ Revisar
 * **Moreno Reza Ana Rebeca** - ** [Remrez](https://github.com/Remrez)
 * **Pérez González David Alejandro** - *367759* - [David-1220](https://github.com/David-1220)
 * **Torres Alanís Evelyn Oyuky** - *367868* [a367868](https://github.com/a367868)
-
-## License
-
-Revisar
-
-## Acknowledgments
-
-Revisar
