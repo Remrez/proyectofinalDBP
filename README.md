@@ -53,14 +53,14 @@ node app.js
 ```
 http://localhost:8888
 ```
-Instrucciones para ejecutar con Docker:.
-Puedes ejecutar este sitio directamente con Docker, sin necesidad de instalar Node.js.
+Instrucciones para ejecutar con Docker:
+- Puedes ejecutar este sitio directamente con Docker, sin necesidad de instalar Node.js.
 
 * 1. Asegúrate de tener Docker instalado
 
-```
+
 Descarga e instala Docker desde [Docker](https://www.docker.com)
-```
+
 
 * 2. Ejecutar la imagen desde Docker Hub
 
@@ -75,9 +75,7 @@ http://localhost:8888
 ```
 ### Link DockerHub
 
-```
 [Link de Imagen de Docker](https://hub.docker.com/r/dave1220/proyectofinaldbp/tags)
-```
 
 ## Built With
 
@@ -88,7 +86,7 @@ http://localhost:8888
 ## Authors
 
 * **Hernández Hernández Luisa Fernanda** - *368068* - [LuFer25](https://github.com/LuFer25)
-* **Ledezma Diaz Ana Sofia** - ** [anaLedezma7](https://github.com/anaLedezma7)
+* **Ledezma Diaz Ana Sofia** - *367897* [anaLedezma7](https://github.com/anaLedezma7)
 * **Moreno Reza Ana Rebeca** - ** [Remrez](https://github.com/Remrez)
 * **Pérez González David Alejandro** - *367759* - [David-1220](https://github.com/David-1220)
 * **Torres Alanís Evelyn Oyuky** - *367868* [a367868](https://github.com/a367868)
