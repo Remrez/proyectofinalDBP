@@ -89,6 +89,6 @@ http://localhost:8888
 
 * **Hernández Hernández Luisa Fernanda** - *368068* - [LuFer25](https://github.com/LuFer25)
 * **Ledezma Diaz Ana Sofia** - *367897* [anaLedezma7](https://github.com/anaLedezma7)
-* **Moreno Reza Ana Rebeca** - ** [Remrez](https://github.com/Remrez)
+* **Moreno Reza Ana Rebeca** - *367783* [Remrez](https://github.com/Remrez)
 * **Pérez González David Alejandro** - *367759* - [David-1220](https://github.com/David-1220)
 * **Torres Alanís Evelyn Oyuky** - *367868* [a367868](https://github.com/a367868)
